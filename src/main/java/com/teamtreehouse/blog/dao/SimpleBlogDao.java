@@ -99,4 +99,4 @@ public class SimpleBlogDao implements BlogDao{
         template3.addComment(comment3);
         comment3.setDate("Thursday June 15, 2017 15:27:26");
     }
-}
+} 
