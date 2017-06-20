@@ -10,4 +10,4 @@ public interface BlogDao {
     List<BlogEntry> findAllEntries();
     BlogEntry findEntryBySlug(String slug);
     String getPassword();
-}
+} 
