@@ -50,7 +50,7 @@ public class BlogEntry {
 
         public String getDate() {
         return date;
-    }
+        }
 
         public List<Comment> getComments() {
         return new ArrayList<>(comments);
@@ -58,17 +58,19 @@ public class BlogEntry {
 
         public List<String> getTags() {
         return new ArrayList<>(tags);
-    }
+        }
 
         public void setEntry(String entry) {
         this.entry = entry;
-    }
+        }
+        
         public void setDate(String date) {
         this.date = date;
-    }
+        }
+        
         public void setTitle(String title) {
         this.title = title;
-    }
+        }
 
         @Override
         public boolean equals(Object o) {
@@ -87,7 +89,4 @@ public class BlogEntry {
             result = 31 * result + (entry != null ? entry.hashCode() : 0);
             return result;
         }
-
-
-
 }
