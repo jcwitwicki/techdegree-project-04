@@ -191,10 +191,10 @@ input[type=submit] {
 }
 
 
-
 /* ==========================================================================
    Added
    ========================================================================== */
+
 
    #flash-message{
            width:40%;
@@ -208,7 +208,6 @@ input[type=submit] {
            font-size: 18px;
            padding: 10px 20px;
            font-family: Verdana, sans-serif;
-
          }
 
    a.link-edit {
@@ -341,11 +340,3 @@ h1 {
 	padding: 14px;
 	line-height: 1px;
 }
-
-
-
-
-
-
-
-
