@@ -8,9 +8,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by Jean-Charles on 13-Jun-17.
- */
 public class SimpleBlogDao implements BlogDao{
 
     private List<BlogEntry> entries;
